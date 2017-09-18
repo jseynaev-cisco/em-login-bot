@@ -2,7 +2,7 @@
 
 Cisco Spark bot that can log a user in with UCM Extension Mobility Feature. See https://www.ciscospark.com/ to check out what Cisco Spark is, then see https://developer.ciscospark.com/ on bots
 
-Just say "log me in into <number on the phone>" and the bot will do it's best to do so.
+Just say "log me in into [number on the phone]" and the bot will do it's best to do so.
 When you are done for the day, just say "log me out" ...
 
 ### disclaimer
@@ -15,7 +15,7 @@ Proof of Concept, it works ... most of the time. It also gives some useful error
 
 ## commands
 - hello
-- log me in into <number on the phone>
+- log me in into [number on the phone]
 - log me out
 - help
 
