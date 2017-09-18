@@ -143,7 +143,7 @@ def incoming_hook():
         
     # what can I do
     if message.text.lower() == 'help' or message.text.lower() == 'what can you do':
-        sparkapi.messages.create(roomId=message.roomId, markdown=help_message)
+        sparkapi.messages.create(roomId=message.roomId, markdown=cfg.help_message)
         print('{} asked for help'.format(userid))
     
     # try logging in
